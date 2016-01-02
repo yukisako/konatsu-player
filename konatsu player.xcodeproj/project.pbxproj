@@ -12,6 +12,13 @@
 		650DA4681C377B94002C0CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650DA4661C377B94002C0CEE /* Main.storyboard */; };
 		650DA46A1C377B94002C0CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650DA4691C377B94002C0CEE /* Assets.xcassets */; };
 		650DA46D1C377B94002C0CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650DA46B1C377B94002C0CEE /* LaunchScreen.storyboard */; };
+		650DA4751C3780F7002C0CEE /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 650DA4741C3780F7002C0CEE /* egg.png */; };
+		650DA4771C378164002C0CEE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DA4761C378164002C0CEE /* TableViewController.swift */; };
+		650DA47D1C378681002C0CEE /* 茜空shortver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 650DA47A1C378681002C0CEE /* 茜空shortver.wav */; };
+		650DA47F1C378681002C0CEE /* Havefun!.wav in Resources */ = {isa = PBXBuildFile; fileRef = 650DA47C1C378681002C0CEE /* Havefun!.wav */; };
+		650DA4811C378B69002C0CEE /* Evolve.wav in Resources */ = {isa = PBXBuildFile; fileRef = 650DA4801C378B69002C0CEE /* Evolve.wav */; };
+		650DA4831C378B96002C0CEE /* Echidna.wav in Resources */ = {isa = PBXBuildFile; fileRef = 650DA4821C378B96002C0CEE /* Echidna.wav */; };
+		650DA4851C379B99002C0CEE /* vol.png in Resources */ = {isa = PBXBuildFile; fileRef = 650DA4841C379B99002C0CEE /* vol.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		650DA4691C377B94002C0CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		650DA46C1C377B94002C0CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		650DA46E1C377B94002C0CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650DA4741C3780F7002C0CEE /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = egg.png; path = ../../../../../Desktop/egg.png; sourceTree = "<group>"; };
+		650DA4761C378164002C0CEE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		650DA47A1C378681002C0CEE /* 茜空shortver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "茜空shortver.wav"; path = "../../../../../Desktop/茜空shortver.wav"; sourceTree = "<group>"; };
+		650DA47C1C378681002C0CEE /* Havefun!.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Havefun!.wav"; path = "../../../../../Desktop/Havefun!.wav"; sourceTree = "<group>"; };
+		650DA4801C378B69002C0CEE /* Evolve.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Evolve.wav; path = ../../../../../Desktop/Evolve.wav; sourceTree = "<group>"; };
+		650DA4821C378B96002C0CEE /* Echidna.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Echidna.wav; path = ../../../../../Desktop/Echidna.wav; sourceTree = "<group>"; };
+		650DA4841C379B99002C0CEE /* vol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vol.png; path = ../../../../../Desktop/vol.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				650DA4621C377B94002C0CEE /* AppDelegate.swift */,
 				650DA4641C377B94002C0CEE /* ViewController.swift */,
 				650DA4661C377B94002C0CEE /* Main.storyboard */,
+				650DA47A1C378681002C0CEE /* 茜空shortver.wav */,
+				650DA4801C378B69002C0CEE /* Evolve.wav */,
+				650DA4821C378B96002C0CEE /* Echidna.wav */,
+				650DA47C1C378681002C0CEE /* Havefun!.wav */,
+				650DA4761C378164002C0CEE /* TableViewController.swift */,
+				650DA4841C379B99002C0CEE /* vol.png */,
+				650DA4741C3780F7002C0CEE /* egg.png */,
 				650DA4691C377B94002C0CEE /* Assets.xcassets */,
 				650DA46B1C377B94002C0CEE /* LaunchScreen.storyboard */,
 				650DA46E1C377B94002C0CEE /* Info.plist */,
@@ -123,9 +144,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650DA4851C379B99002C0CEE /* vol.png in Resources */,
+				650DA4811C378B69002C0CEE /* Evolve.wav in Resources */,
 				650DA46D1C377B94002C0CEE /* LaunchScreen.storyboard in Resources */,
+				650DA4751C3780F7002C0CEE /* egg.png in Resources */,
+				650DA4831C378B96002C0CEE /* Echidna.wav in Resources */,
+				650DA47D1C378681002C0CEE /* 茜空shortver.wav in Resources */,
 				650DA46A1C377B94002C0CEE /* Assets.xcassets in Resources */,
 				650DA4681C377B94002C0CEE /* Main.storyboard in Resources */,
+				650DA47F1C378681002C0CEE /* Havefun!.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				650DA4651C377B94002C0CEE /* ViewController.swift in Sources */,
+				650DA4771C378164002C0CEE /* TableViewController.swift in Sources */,
 				650DA4631C377B94002C0CEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
