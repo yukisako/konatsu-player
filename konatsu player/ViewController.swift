@@ -34,7 +34,8 @@ class ViewController: UIViewController {
     @IBAction func shuffle(sender: AnyObject) {
         let rand = arc4random_uniform(UInt32(list.count))
         print(rand)
-        var music = list[Int(rand)]
+        nowPlaying = Int(rand)
+        music = list[nowPlaying]
         
         let audioPath = NSBundle.mainBundle().pathForResource(music, ofType: "wav")!
         
@@ -50,10 +51,13 @@ class ViewController: UIViewController {
     }
     @IBAction func play(sender: AnyObject) {
         
-        let rand = arc4random_uniform(UInt32(list.count))
-        music = list[Int(rand)]
         
-        if nowPlaying != -1{
+        
+        
+        if nowPlaying == -1{
+            let rand = arc4random_uniform(UInt32(list.count))
+            music = list[Int(rand)]
+        } else {
             music = list[nowPlaying]
         }
         
